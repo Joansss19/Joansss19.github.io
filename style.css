@@ -1,12 +1,18 @@
-body {
-    text-align: center;
-    background-color: #111;
-    color: white;
-    font-family: Arial, sans-serif;
-  }
-  
-  canvas {
-    border: 3px solid white;
-    background: black;
-  }
-  
+body, html {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#hero {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hover-card:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
